@@ -30,6 +30,6 @@ public class MainActivity extends Activity
             Intent intent = new Intent(this, DetailActivity.class);
             intent.putExtra(DetailActivity.EXTRA_WORKOUT_ID, id);
             startActivity(intent);
-        }
+    }
     }
 }
