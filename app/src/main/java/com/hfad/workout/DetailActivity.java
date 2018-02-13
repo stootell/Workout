@@ -12,7 +12,7 @@ public class DetailActivity extends AppCompatActivity {
         setContentView(R.layout.activity_detail);
 
         WorkoutDetailFragment workoutDetailFragment = (WorkoutDetailFragment)
-                getFragmentManager().findFragmentById(R.id.detail_frag);
+                getFragmentManager().findFragmentById(R.id.detail_activity_frag);
         long workoutId = (long) getIntent().getExtras().get(EXTRA_WORKOUT_ID);
         workoutDetailFragment.setWorkout(workoutId);
     }
